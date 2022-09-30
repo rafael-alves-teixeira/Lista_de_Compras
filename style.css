@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;      
+}
+
+:root {   
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    background-size: cover;
+    background-color: rgb(235, 231, 214);
+    background-image: url("https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2020/06/supermercado-online.jpg?resize=1140%2C570&ssl=1");
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+}
+
+
+.header {
+    margin: auto;  
+    margin-top: 30px;
+    height: auto;
+    width: auto; 
+    max-width: 1000px;
+    min-width: 300px;
+    padding: 10px;
+    border: 1px solid   rgb(54, 53, 53);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(7.6px);
+    background: rgba(170, 170, 170, 0.45);
+
+    
+    filter: drop-shadow(rgba(243, 240, 237, 0.91) -10px -10px 10px);
+}
+
+h1 {
+    border-bottom: solid red 10px;
+    margin-bottom: 30px;
+    min-width: 340px;
+}
+
+p {
+    color: rgb(246, 223, 223);
+}
+
+.header h2, p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn-area {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-area p {
+    color: rgb(38, 37, 37);
+}
+
+.btn {
+    background-color: rgb(160, 155, 155);
+    font-size: medium;
+    border: solid 2px black;
+    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+}
+
+.btn:hover {
+    background-color: rgb(171, 167, 167);
+    cursor: pointer;
+}
+
+footer {
+    margin: auto;
+    background: rgba(170, 170, 170, 0.45);
+    border: 1px solid   rgb(54, 53, 53);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(7.6px);
+    min-width: 340px;
+    padding: 15px;
+    height: 70px;
+    text-align: center;
+}
+
+.author-description {
+    color: rgb(48, 46, 46);
+}
+
